@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Essential SEO Elements -->
+    <title>My Awesome Website - Your Go-To Resource</title>
+    <meta name="description" content="Discover valuable information and services on our awesome website. We provide solutions for all your needs.">
+    <meta name="keywords" content="awesome, website, solutions, services, information, guide">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://placehold.co/32x32/000000/FFFFFF?text=AW" type="image/x-icon">
+
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: "Inter", sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
+
+    <header class="bg-blue-600 text-white p-4 shadow-md rounded-b-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">My Awesome Website</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-blue-200">Home</a></li>
+                    <li><a href="#about" class="hover:text-blue-200">About</a></li>
+                    <li><a href="#services" class="hover:text-blue-200">Services</a></li>
+                    <li><a href="#contact" class="hover:text-blue-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto my-8 p-6 bg-white rounded-lg shadow-lg flex-grow">
+        <section id="home" class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-blue-700">Welcome to Our Site!</h2>
+            <p class="text-lg leading-relaxed">
+                This is a sample website demonstrating basic HTML structure and SEO practices. We aim to provide useful content and a great user experience.
+            </p>
+            <img src="https://placehold.co/600x400/FF5733/FFFFFF?text=Hero+Image" alt="A vibrant abstract hero image representing innovation" class="w-full h-auto rounded-lg mt-4 shadow-md">
+        </section>
+
+        <section id="about" class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-blue-700">About Us</h2>
+            <p class="leading-relaxed">
+                We are dedicated to delivering high-quality information and solutions. Our team is passionate about helping you succeed.
+            </p>
+            <h3 class="text-xl font-medium mt-4 mb-2 text-blue-600">Our Mission</h3>
+            <p class="leading-relaxed">
+                To empower individuals and businesses with accessible and accurate resources.
+            </p>
+        </section>
+
+        <section id="services" class="mb-8">
+            <h2 class="text-2xl font-semibold mb-4 text-blue-700">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-gray-50 p-4 rounded-md shadow-sm">
+                    <h3 class="text-xl font-medium mb-2 text-blue-600">Web Development</h3>
+                    <p class="text-sm">Building responsive and modern websites tailored to your needs.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-md shadow-sm">
+                    <h3 class="text-xl font-medium mb-2 text-blue-600">SEO Consulting</h3>
+                    <p class="text-sm">Helping your site rank higher in search engine results.</p>
+                </div>
+                <div class="bg-gray-50 p-4 rounded-md shadow-sm">
+                    <h3 class="text-xl font-medium mb-2 text-blue-600">Content Creation</h3>
+                    <p class="text-sm">Crafting engaging and informative content for your audience.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="text-2xl font-semibold mb-4 text-blue-700">Contact Us</h2>
+            <p class="leading-relaxed">
+                Have questions? Reach out to us via email at <a href="mailto:info@example.com" class="text-blue-600 hover:underline">info@example.com</a>.
+            </p>
+            <form class="mt-4">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name:</label>
+                    <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Name">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email:</label>
+                    <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="your@example.com">
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message:</label>
+                    <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                    Send Message
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 mt-8 rounded-t-lg">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2025 My Awesome Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
